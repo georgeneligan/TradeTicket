@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.png"
+      type="image/x-icon" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <script
       src="https://kit.fontawesome.com/1272a139a6.js"
@@ -16,6 +20,7 @@
     <link rel="stylesheet" type="text/css" href="slick/slick.css" />
 
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
 
     <title>TradeTicket</title>
   </head>
@@ -33,11 +38,16 @@
               <i class="fa-sharp fa-solid fa-magnifying-glass"></i></button
           ></a>
         </div>
-        <div class="login_wrapper">
-          <button>Log in</button>
+        <div class="auth-container">
+          <div class="login_wrapper">
+            <button>Log in</button>
+          </div>
+          <div class="signup_wrapper">
+            <button>Sign Up</button>
+          </div>
         </div>
-        <div class="signup_wrapper">
-          <button>Sign Up</button>
+        <div class="authhidden">
+          <i class="fa-solid fa-user"></i>
         </div>
       </aside>
     </header>
@@ -47,16 +57,41 @@
           <nav>
             <ul>
               <li class="navigationactive">
-                <i class="fa-solid fa-house"></i>Home
+                <i class="fa-solid fa-house"></i
+                ><span class="navhidden">Home</span>
               </li>
-              <li><i class="fa-regular fa-calendar"></i>Events</li>
-              <li><i class="fa-solid fa-music"></i>Concerts</li>
-              <li><i class="fa-solid fa-bus-simple"></i>Transport</li>
-              <li><i class="fa-solid fa-volleyball"></i>Sport</li>
-              <li><i class="fa-solid fa-plane-up"></i>Flights</li>
-              <li><i class="fa-solid fa-bus-simple"></i>Transport</li>
-              <li><i class="fa-solid fa-volleyball"></i>Sport</li>
-              <li><i class="fa-solid fa-plane-up"></i>Flights</li>
+              <li>
+                <i class="fa-regular fa-calendar"></i
+                ><span class="navhidden">Events</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-music"></i
+                ><span class="navhidden">Concerts</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-bus-simple"></i
+                ><span class="navhidden">Transport</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-volleyball"></i
+                ><span class="navhidden">Sport</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-plane-up"></i
+                ><span class="navhidden">Flights</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-bus-simple"></i
+                ><span class="navhidden">Transport</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-volleyball"></i
+                ><span class="navhidden">Sport</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-plane-up"></i
+                ><span class="navhidden">Flights</span>
+              </li>
             </ul>
           </nav>
         </div>
@@ -74,8 +109,6 @@
             <h1>Popular Events</h1>
             <div>
               <p>All</p>
-              <button></button>
-              <button></button>
             </div>
           </div>
           <aside class="cards_wrapper">

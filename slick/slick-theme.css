@@ -19,7 +19,7 @@
 /* Arrows */
 .slick-prev {
   position: absolute;
-  top: -45px;
+  top: -45.5px;
   right: 53px;
   margin-left: 20px;
   outline: none;
@@ -31,7 +31,7 @@
 }
 .slick-next {
   position: absolute;
-  top: -45px;
+  top: -45.5px;
   right: 25px;
   outline: none;
   border: none;

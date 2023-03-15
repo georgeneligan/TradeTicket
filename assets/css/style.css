@@ -225,6 +225,8 @@ main .navigation_wrapper nav ul li:hover {
 
 .events_wrapper {
   margin-top: 30px;
+
+  width: 97%;
 }
 
 .events_wrapper .events_header div {
@@ -241,7 +243,9 @@ main .navigation_wrapper nav ul li:hover {
   padding: 0px;
   color: #2c2c2c;
   text-align: center;
-  margin-left: -85px;
+  position: absolute;
+  left: 80%;
+  right: 0px;
 }
 
 .events_wrapper .events_header div button {
@@ -372,4 +376,27 @@ main .navigation_wrapper nav ul li:hover {
 
 .today .events_header div p {
   margin-top: 17px;
+}
+
+.authhidden {
+  border: solid 1px var(--primaryColor);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 10px 0px var(--primaryColor);
+  display: none;
+}
+
+.authhidden .fa-user {
+  color: var(--primaryColor);
+  font-size: 20px;
+}
+
+.auth-container {
+  display: flex;
+  gap: 15px;
 }
