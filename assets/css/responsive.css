@@ -42,6 +42,7 @@
   header .right .search_wrapper {
     width: 300px;
     height: 56px;
+    background-color: transparent;
   }
   header .right .search_wrapper input {
     width: 75%;
@@ -176,8 +177,8 @@
 
 @media screen and (max-width: 451px) {
   header .right .search_wrapper {
-    width: 170px;
-    height: 56px;
+    width: 180px;
+    height: 45px;
   }
   header .right .search_wrapper input {
     width: 60%;
