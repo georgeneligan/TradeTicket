@@ -14,11 +14,11 @@ body {
 
 @font-face {
   font-family: SF-Pro-Display-Light;
-  src: url(/assets/fonts/SF-Pro-Display-Light.woff);
+  src: url(../fonts/SF-Pro-Display-Light.woff);
 }
 @font-face {
   font-family: SF-Pro-Display-Bold;
-  src: url(/assets/fonts/SF-Pro-Display-Regular.woff);
+  src: url(../fonts/SF-Pro-Display-Regular.woff);
 }
 
 header {
@@ -172,7 +172,7 @@ main .navigation_wrapper nav ul li:hover {
 }
 
 .content_wrapper .banner {
-  background-image: url(/assets/img/image14.png);
+  background-image: url(../img/image14.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
